@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color:  hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 420px;
+    text-align: center;
+    border-radius: 1em;
+
+    .main-hero{
+        padding: 40px;
+    }
+
+    .head-img{
+        width: 100%;
+        border-radius: 1em 1em 0 0;
+    }
+
+    .head-tag{
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+
+    .content{
+        line-height: 1.5em;
+        font-weight: 500;
+        color: hsl(224, 23%, 55%);
+        padding-bottom: 20px;
+    }
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+
+    .sec{
+        display: flex;
+    }
+
+    .spec{
+        display: block;
+        margin-left: 8px;
+        padding-top: 2px;
+
+        .plan-name{
+            color: hsl(223, 47%, 23%);
+            font-weight: 900;
+            margin-bottom: 1px;
+        }
+
+        .rate{
+            color: hsl(224, 23%, 55%);
+        }
+    }
+    
+    a{
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .change:hover{
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+    }
+}
+
+.gateway{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    width: 100%;
+    height: 38px;
+    margin: 16px 0;
+    box-shadow: 0 12px 8px hsl(225, 100%, 94%);
+}
+
+.gateway:hover{
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.cancel{
+    border: none;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    background-color: white;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(/images/pattern-background-mobile.svg);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+    }
+}
