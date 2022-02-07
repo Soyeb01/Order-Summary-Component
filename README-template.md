@@ -25,7 +25,7 @@ This challenge is made by using HTML and CSS. And it makes me use Flexbox by  wh
 ### Links
 
 - Solution URL: https://github.com/Soyeb01/Order-Summary-Component.git
-- Live Site URL: 
+- Live Site URL: https://order-summary-component-by-soyeb.netlify.app
 
 ## My process
 
