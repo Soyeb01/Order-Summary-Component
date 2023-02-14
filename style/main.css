@@ -161,4 +161,30 @@ body {
     height: 50px;
     margin: 25px 0;
   }
+}
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 10px;
+  }
+  .hero {
+    width: 300px;
+  }
+  .hero .main-hero {
+    padding: 30px 22px;
+  }
+  .hero .head-tag {
+    padding-bottom: 18px;
+  }
+  .hero .content {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+  .plan {
+    height: 78px;
+    padding: 16px 14px;
+  }
+  .gateway {
+    height: 46px;
+    margin: 25px 0;
+  }
 }/*# sourceMappingURL=main.css.map */
